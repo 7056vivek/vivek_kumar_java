@@ -1,22 +1,39 @@
 # Student Performance Predictor — Java
 
 ## Overview
-A Java-based machine-learning educational project that predicts a student's final score from academic and lifestyle inputs. It implements CSV loading, validation, preprocessing, Linear Regression using gradient descent, evaluation, model persistence, and a Java Swing desktop interface.
+
+This is a Java project made to predict a student's final score using
+some academic and lifestyle-related information.
+
+The user provides:
+- Study hours
+- Attendance
+- Previous score
+- Assignment completion
+- Sleep hours
+- Extracurricular hours
+
+The project uses Linear Regression implemented in Java.
+A Swing interface is used to enter the values and display the
+predicted final score.
 
 ## Technologies
-- Java 17+
+- Java 17
 - Java Swing
-- Java Collections and File I/O
-- Object Serialization
+- OOP
+- File Handling
 - JUnit 5
 
 ## Functional Modules
-1. Data loading and validation
-2. Data preprocessing and standardization
-3. Linear Regression training
-4. Model evaluation
-5. Prediction and model persistence
-6. Swing desktop interface
+
+1. Data loading
+2. Data preprocessing
+3. Standardization
+4. Linear Regression
+5. Model evaluation
+6. Prediction
+7. Swing GUI
+
 
 ## Project Structure
 ```text
